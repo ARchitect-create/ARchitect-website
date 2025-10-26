@@ -495,44 +495,23 @@ html {
     color: #999;
 }
 
-/* Pricing Section */
-.pricing {
-    padding: 80px 0;
-    background: #f8f9fa;
-}
+❓ What are "Video Translation Hours"?
+The amount of video content you can convert into AR guides each month. For example, 5 hours/month means you can process up to 5 hours of engineering videos.
 
-.pricing h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--dark-color);
-}
+❓ What are "AR Guide Usage Hours"?
+The amount of time your team can actively use AR guides in the field. One hour of AR usage equals one hour of real-world guidance provided to your users.
 
-.pricing-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-}
+❓ How do Credit Rollovers work?
+Unused hours from your monthly allocation roll over to the next month, so you never lose your investment. Available in Advanced and Premium plans.
 
-.pricing-card {
-    background: white;
-    padding: 2.5rem;
-    border-radius: var(--border-radius);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-    transition: var(--transition);
-    position: relative;
-}
+❓ What's included in Backend Support?
+Priority technical assistance for model training, integration issues, and optimization. Our engineers work directly with your team.
 
-.pricing-card.featured {
-    transform: scale(1.05);
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
-}
+❓ Can I upgrade or downgrade my plan?
+Yes! You can change your plan at any time. Changes take effect at your next billing cycle.
 
-.pricing-card:hover {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-}
+❓ Is there a contract or long-term commitment?
+No contracts required. All plans are month-to-month with the flexibility to cancel anytime.
 
 .badge {
     position: absolute;
@@ -738,4 +717,5 @@ html {
 .timeline-item:nth-child(4) { animation-delay: 0.4s; }
 .timeline-item:nth-child(5) { animation-delay: 0.5s; }
 .timeline-item:nth-child(6) { animation-delay: 0.6s; }
+
 .timeline-item:nth-child(7) { animation-delay: 0.7s; }  
